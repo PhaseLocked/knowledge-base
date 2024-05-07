@@ -1,7 +1,7 @@
 # Algoritmi
 
-## Cos'è
-Un'algoritmo è una sequenza di istruzioni volte a risolvere un problema.
+## Cosa sono
+Gli algoritmi sono una sequenza di istruzioni volte a risolvere un problema.
 
 ## Böhm-Jacopini
 Secondo il teorema di Böhm-Jacopini ggli algoritmi sono composti da 3 elementi:
