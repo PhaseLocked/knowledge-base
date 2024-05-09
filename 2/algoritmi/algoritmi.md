@@ -4,13 +4,17 @@
 Gli algoritmi sono una sequenza di istruzioni volte a risolvere un problema.
 
 ## Böhm-Jacopini
-Secondo il teorema di Böhm-Jacopini ggli algoritmi sono composti da 3 elementi:
+Secondo il teorema di Böhm-Jacopini gli algoritmi sono composti da 3 elementi:
 
 - Sequenza: una serie di istruzioni eseguite una alla volta
 
 - Selezione: una condizioneche se vera esegue  un "ramo" di istruzioni, mentre se falsa esegue un'altro ramo.
 
 - Iterazione: un'istruzione che fa eseguire un blocco di istruzioni per un certo numero di volte o fintanto che una condizione sia rispettata.
+
+## Variabile
+La variabile è un contenitore di dati (situato nella memoria RAM) il cui contenuto possiamo leggere e scrivere durante l'esecuzione del nostro programma.
+La variabile è caratterizzata da un nome (che gli assegnamo noi) e da un tipo (cioè il tipo di dato che possiamo scrivere nella variabile, per esempio un numero intero o un testo).
 
 ## Flowgorithm
 
