@@ -8,7 +8,7 @@ Secondo il teorema di Böhm-Jacopini gli algoritmi sono composti da 3 elementi:
 
 - Sequenza: una serie di istruzioni eseguite una alla volta
 
-- Selezione: una condizioneche se vera esegue  un "ramo" di istruzioni, mentre se falsa esegue un'altro ramo.
+- Selezione: una condizione che se vera esegue  un "ramo" di istruzioni, mentre se falsa esegue un'altro ramo.
 
 - Iterazione: un'istruzione che fa eseguire un blocco di istruzioni per un certo numero di volte o fintanto che una condizione sia rispettata.
 
@@ -30,6 +30,8 @@ Un'espressione è una scrittura contenente valori e operazioni che può essere s
 - Moltiplicazione (*)
 - Divisione (/)
 - Modulo (%, mod): restituisce il resto di una divisione intera.
+- Potenza (^)
+- Radice quadrata (Sqrt(espressione di cui calcolare la radice))
 - Comparazione (>, <, >=, <=, ==, != etc...): compara i valori che gli forniamo e restituisce un booleano, cioè vero o falso.
 - Concatenazione (&): unisce testi e variabili in un unico grande testo.
 
