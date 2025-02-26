@@ -1,6 +1,6 @@
 # Memorie di massa
 
-## Tipi di memorie
+## Dispositivi hardware
 
 ### HDD
 Gli HDD o Hard Disk Drive sono dei dispositivi che  contengono dei dischi rigidi coperti da una polvere di metallo magnetizzata, su questi dischi passa una testina che legge e scrive i dati leggendo o cambiando la direzione dei poli del campo magnetico prodotto dalla polvere metallica.
@@ -23,3 +23,46 @@ Quando viene rilevata l'imminenza del guasto dell'SSD il controller abilita la m
 
 ### Vista interna di HDD e SSD
 ![SSD vs HDD](/resources/images/ssd-vs-hdd.png)
+
+## Suddivisione logica della memoria
+Indipendentemente dalla tecnologia hardware che usiamo possiamo pensare alle memorie di massa come ad un blocco di dati.
+
+Per gestire questo blocco di memoria usiamo le partizioni, a cui possiamo pensare come a delle "fette" di memoria.
+
+Queste partizione necessitano di essere memorizzate da qualche parte, per questo scopo esistono il MBR (Master Boot Record) e la GPT (GUID Partition Table).
+
+Nella nostra trattazione affronteremo solo il GPT.
+
+### GPT
+
+Il GPT è una tabella delle partizioni, si trova all'inizio del disco e possiede una copia di backup alla fine.
+Si compone nel seguente modo:
+
+- Protective MBR (LBA 0): MBR semplificato inserito per motivi di compatibilità con computer vecchi.
+
+- Header GPT (Intestazione) (LBA 1): una sezione con una serie di informazioni riguardante la tabella delle partizioni come:
+
+    - Codice identificativo della GPT.
+
+    - Parti del disco usabili dall'utente.
+
+    - Numero e dimensione delle voci della tabella delle partizioni.
+
+    - La dimensione e posizione del GPT
+
+    - Dimensione e posizione del GPT di backup.
+
+    - Checksum della GPT (si usa per capire se i dati sono corrotti e se è necessario usare la GPT di backup).
+
+- Tabella partizioni (LBA 2 - 33):una lista di partizioni, ogni voce contiene:
+
+    - Il GUID del tipo di partizione (un codice che indica il tipo della partizione).
+
+    - Il GUID univoco dell apartizione (Il codice che individua la partizione).
+
+    - Inizio partizione (LBA di 64 bit).
+    
+    - Fine partizione (LBA di 64 bit).
+
+### Struttura logica memoria di massa con GPT
+![GPT](/resources/images/gpt-disk.png)
