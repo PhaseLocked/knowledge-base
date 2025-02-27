@@ -5,3 +5,6 @@ I circuiti RC, detti circuiti capacità resistenza, sono circuiti composti da un
 
 ## Uso
 Questi circuiti vengono spesso usati come filtri, e sono molto diffusi per la loro semplicità e costo ridotto.
+
+### Esempio
+![Circuito RC](/resources/images/rc.png)
