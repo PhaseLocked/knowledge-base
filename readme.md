@@ -21,3 +21,4 @@
 - [Filtri](/ipsia/4/filtri/filtri.md)
     - [Circuiti RC](/ipsia/4/filtri/circuiti-rc/circuiti-rc.md)
         - [Filtro passa-basso](/ipsia/4/filtri/circuiti-rc/filtro-passa-basso.md)
+        - [Filtro passa-alto](/ipsia/4/filtri/circuiti-rc/filtro-passa-alto.md)
