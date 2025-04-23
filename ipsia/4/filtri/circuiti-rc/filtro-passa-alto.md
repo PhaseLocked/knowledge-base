@@ -1,14 +1,14 @@
-# Filtro passa-basso
+# Filtro passa-alto
 
 ### Esempio
-![Filtro passa basso](/resources/images/filtro-passa-basso.png)
+![Filtro passa-alto](/resources/images/filtro-passa-alto.png)
 
 ## Definizione
-I filtri passa-basso sono circuiti in corrente alternata il cui scopo è far passare la corrente a basse frequenze e bloccarla a altre frequenze.
+I filtri passa-alto sono circuiti in corrente alternata il cui scopo è far passare la corrente ad alte frequenze.
 
-Se analizziamo il grafico della tensione in uscita in relazione alla frequenza possiamo notare come, al salire della frequenza, la tensione scende.
+Se analizziamo il grafico della tensione in uscita in relazione alla frequenza possiamo notare come, al salire della frequenza, la tensione aumenta.
 
-![Grafico andamento tensione su frequenza](/resources/images/grafico-filtro-passa-basso.png)
+![Grafico andamento tensione su frequenza](/resources/images/grafico-filtro-passa-alto.png)
 
 ## Frequenza di taglio
 Come possiamo osservare l'effetto del filtro non è immediato, bensì graduale, per questo motivo dobbiamo definire arbitrariamente quando consideriamo il segnare passante e quando invece oscurato; la frequenza che divide queste due "bande" viene chiamata "frequenza di taglio".
