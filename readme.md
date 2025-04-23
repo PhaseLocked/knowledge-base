@@ -16,6 +16,8 @@
 
 ### Terza
 - [Potenza](/ipsia/3/potenza/potenza.md)
+- [Logica digitale](/ipsia/3/logica-digitale/logica.md)
+    - [Logica cablata (porte logiche)](/ipsia/3/logica-digitale/logica-cablata.md)
 
 ### Quarta
 - [Guadagno](/ipsia/4/guadagno/guadagno.md)
