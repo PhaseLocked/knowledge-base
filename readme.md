@@ -18,6 +18,7 @@
 - Fondamentali
     - [Elettricità](/ipsia/3/fondamentali/elettricita.md)
     - [Legge di Ohm](/ipsia/3/fondamentali/ohm.md)
+    - [Leggi di Kirchhoff](/ipsia/3/fondamentali/kirchhoff.md)
 - [Potenza](/ipsia/3/potenza/potenza.md)
 - [Logica digitale](/ipsia/3/logica-digitale/logica.md)
     - [Logica cablata (porte logiche)](/ipsia/3/logica-digitale/logica-cablata.md)
